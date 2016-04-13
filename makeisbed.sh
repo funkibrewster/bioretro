@@ -3,7 +3,7 @@ FILE=$1
 i=1
 START=1
 END=300
-LIMIT=5
+LIMIT=-1
 outputdir="wgsresults/"
 gencodemerge="bedinfo/gencode_v18_merged.bed"
 while read line; do
