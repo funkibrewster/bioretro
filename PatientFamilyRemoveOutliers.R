@@ -16,7 +16,7 @@ savepng <- function(img, fname) {
   return()
 }
 
-# Workflow A. =============================================
+# Workflow B. =============================================
 
 # load patient family mapping table
 family.list <- read.table("dev/inmr.fam.list", header = FALSE)
@@ -93,6 +93,6 @@ family.trio <- as.vector(family.numbers[family.numbers$freq >=3, ]$familyId)
 patients.family <- patients.list[patients.list$familyId %in% family.trio, ]
 
 # export data to csv
-write.table(patients.family, "dev/rsave/patients.csv", sep=",")
+write.table(patients.family, "dev/rsave/patients.csv", sep=",", quote=FALSE, row.names = FALSE)
 
 
