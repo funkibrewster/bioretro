@@ -15,7 +15,7 @@ while read line; do
     # uniquefile=${outputdir}${fname}".unique.genes.txt"
     echo "Processing "${fname}" ...";
 		cut -f8 ${bedfile} | cut -f1 -d'_' | sort | uniq -c | sort -nr > ${outputfile}
-		# perl remove_knowngenes.pl ${outputfile} > ${uniquefile}
+		# perl filterGenes.pl ${outputfile} > ${uniquefile}
 	fi
 	if [ ${i} -eq ${LIMIT} ]
 	then
