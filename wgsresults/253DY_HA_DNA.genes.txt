@@ -1,0 +1,17 @@
+   3 PDE4DIP
+   2 TCHH
+   2 RP4-798P15.3
+   2 OVGP1
+   2 NCDN
+   2 LCE4A
+   2 IL12RB2
+   2 FOXO6
+   1 TAL1
+   1 NBPF1
+   1 KCNN3
+   1 KCNJ9
+   1 GDF7
+   1 GBP4
+   1 FMN2
+   1 CHIT1
+   1 AHDC1
